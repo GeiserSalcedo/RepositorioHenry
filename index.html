@@ -3,30 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Mi Primer Sitio Web</title>
 </head>
 <body>
     <!--Contenido aqui-->
-    <Header>
-        <H1>Bienvenido a mi sitio web</H1>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Contactenos</li>
-                <li>Nosotros</li>
+    <Header class="header">
+        <nav class="menu-container">
+            <img src="logo.png" alt="" class="logo">
+            <H1>Bienvenido a mi sitio web</H1>
+            <ul class="menu">
+                <li><a href="#" class="menu-item">Home</a></li>
+                <li><a href="#" class="menu-item">Contactenos</a></li>
+                <li><a href="#" class="menu-item">Nosotros</a></li>
             </ul>
         </nav>
+    </Header>
 
         <main>
-            <Section>
+            <Section class="section-pasatiempos">
                 <h2>Pasatiempos</h2>
-                <p>Me gusta leer</p>
-                <img src="" alt="Foto de geiser">
+                <p>Me gusta leer, aprender cosas nuevas y pasar tiempo con mi familia.</p>
+                <p>También disfruto mucho de la programación y la creación de sitios web.</p>
+            </Section>
+    
+            <Section class="section-imagenes">
+                <div class="imagen-container">
+                    <img src="img/read.png" alt="Descripción de la imagen 1">
+                </div>
+                <div class="imagen-container">
+                    <img src="img/code.png" alt="Descripción de la imagen 2">
+                </div>
+                <div class="imagen-container">
+                    <img src="img/family.png" alt="Descripción de la imagen 3">
+                </div>
             </Section>
         </main>
 
-    </Header>
 </body>
 
-<footer>Realizadopor Geiser Salcedo</footer>
+<footer>Realizado por <strong>Geiser Salcedo</strong></footer>
 </html>
